@@ -1,0 +1,72 @@
+.nav-container {
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 120px;
+     border: solid;
+    opacity: 1;
+  }
+  .top-part{
+    float: right;
+  }
+  .top-part ul{
+    list-style: none;
+    display: flex;
+  
+  }
+  .top-part li{
+    padding: 10px;
+    font-family: 'Montserrat';
+   
+  }
+  .top-part button{
+    padding-top: 1;
+    border: none;
+    height: 20px;
+    border-radius: 25px 25px 25px 25px;
+    color:white;
+    text-transform: capitalize;
+    background-color: #0054A4;
+  }
+ .nav{
+  float: right;
+  width: 900px;
+ }
+  .nav ul {
+    width: 850px;
+    height: 2px;
+    list-style: none;
+    display: flex;
+   
+   
+  
+  }
+  
+ 
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+   
+   
+    
+  }
+  
+  .nav li.active {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 924px;
+    text-align: center;
+   
+  }
+  
+  .nav li:hover {
+    background-color: #777;
+  
+  }
+  .nav ul li:hover {
+    border-bottom: 2px solid rgb(249, 70, 70);
+
+  }
