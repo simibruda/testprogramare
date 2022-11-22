@@ -1,0 +1,29 @@
+.trustcertification-writing{
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+}
+.space {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+  }
+  .trustcertification-writing li{
+    display: inline;
+  }
+  .trustcertification-writing li img{
+    width: 100px;
+  }
+  @media only screen and (max-width: 1333px) {
+    .trustcertification-writing{
+      height: 900px;
+    }
+    .trustcertification-writing li{
+      display: flex;
+      padding-bottom: 30px;
+      margin-left: 30%;
+    }
+    .trustcertification-writing li img{
+      width: 60%;
+    }
+  }

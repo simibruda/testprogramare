@@ -1,0 +1,25 @@
+
+.writting-excelyard{
+    padding-top: 160px;
+    padding-left: 170px;
+    width: 550px;
+    font-family: 'Montserrat';
+}
+.backgorundYard-mobile{
+    display: none;
+}
+@media only screen and (max-width: 1333px) {
+    .background-excelyard{
+        display: none;
+    }
+    .backgorundYard-mobile{
+        padding-top: 30%;
+        display: revert;
+        height: 350px;
+        background-image: url(../images/YardProtectionMobile.png);
+        background-color: rgb(221, 217, 217);
+        background-blend-mode: multiply;
+        text-align: center;
+        font-family: "Montserrat",
+    }
+}

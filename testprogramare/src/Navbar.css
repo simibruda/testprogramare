@@ -1,44 +1,57 @@
-.nav-container {
-    background-color: rgb(255, 255, 255);
-    width: 1500px;
-    height: 120px;
-     border: solid;
-    opacity: 1;
+.nav-container{
+  height:15%;
+}
+  .logo{
+    float: left;
+    width: 16%;
+    padding: 15px;
   }
   .top-part{
-    float: right;
+    padding-top: 20px;
+
+  }
+  .mobile-bottom{
+    visibility: hidden;
+  }
+  .top-part-mobile{
+    display: none;
+    float:right;
   }
   .top-part ul{
     list-style: none;
     display: flex;
+   
+    width: 1150px;
   
   }
   .top-part li{
-    padding: 10px;
+    padding-top:5px;
+    padding-right:30px;
     font-family: 'Montserrat';
    
   }
   .top-part button{
-    padding-top: 1;
+    
     border: none;
-    height: 20px;
+    height: 35px;
     border-radius: 25px 25px 25px 25px;
     color:white;
     text-transform: capitalize;
     background-color: #0054A4;
+    width: 170px;
   }
+
  .nav{
-  float: right;
-  width: 900px;
+  padding-left: 150px;
+ 
+  
  }
   .nav ul {
     width: 850px;
-    height: 2px;
+    height: 30px;
     list-style: none;
     display: flex;
    
-   
-  
   }
   
  
@@ -49,16 +62,17 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Montserrat';
-   
+    font-size:20px;
    
     
   }
   
   .nav li.active {
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    width: 924px;
+   
+    height: 40px;
+    width: 300px;
     text-align: center;
+    
    
   }
   
@@ -67,6 +81,135 @@
   
   }
   .nav ul li:hover {
-    border-bottom: 2px solid rgb(249, 70, 70);
+    border-bottom: 4px solid rgb(249, 70, 70);
 
   }
+  @media only screen and (max-width: 1332px) {
+    .logo{
+      width: 40%;
+      height:100%;
+      padding-top: 0px;
+    }
+
+    .top-part{
+      display: none;
+    }
+    .nav{
+      visibility: hidden;
+    }
+    .nav-container{
+      width: auto;
+      height: 15%;
+      
+    }
+    .top-part-mobile{
+      float: right;
+      display: flex;
+      visibility: visible;
+      width: 50%;
+    }
+    .top-part-mobile h6{
+      font-size: 90%;
+      font-family: 'Montserrat';
+     
+    }
+    .div-button{
+       margin-top: 20%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-toppart{
+      height: 28%;
+      margin-top: 5%;
+     
+    }
+    .mobile-toppart img{
+      margin-left: 3%;
+      margin-right: 3%;
+      filter: invert(100%) sepia(96%) saturate(16%) hue-rotate(258deg) brightness(106%) contrast(104%);
+    }
+    .mobile-toppart button{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: solid;
+      border-color: rgb(255, 255, 255);
+      border-width: 1px;
+        height:20%;
+        border-radius: 25px 25px 25px 25px;
+        color:white;
+        text-transform: capitalize;
+        background-color: transparent;
+        width: 50%;
+        font-size: 13px;
+    }
+    .nav-links-mobile {
+      position: absolute;
+      display: block;
+      list-style: none;
+      box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     
+      top: 0%;
+      width: 100%;
+      height: 700%;
+      background-image: url(Wallpaper-Kemra-RusticWood-1.png), url(picturemessage_gumjlfpy.lkm.svg);
+      background-blend-mode: multiply;
+      color:rgb(255, 255, 255);
+      background-size:100%;
+
+    }
+    .mobile-toppart ul{
+      justify-content: center;
+    display: flex;
+    }
+    .mobile-toppart li{
+      list-style: none;
+   
+    }
+  
+    .mobile-toppart-ul{
+     text-align: center;
+      list-style: none;
+      display: block;
+     padding-left: 0px;
+     font-size: 30px;
+     
+    }
+    .mobile-toppart-ul li{
+      margin-bottom: 4px;
+    }
+  
+    .mobile-toppart-ul a{
+      color: inherit;
+      text-decoration: none;
+      font-family: 'Montserrat';
+      
+     
+      
+    }
+    .mobile-bottom{
+      visibility: visible;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10%;
+    }
+    .mobile-bottom-contact{
+      color:white;
+      margin-top: 6%;
+    }
+    .mobile-bottom-contact button{
+      width: 50%;
+      color:white;
+      border-radius: 2px;
+      border: none;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .mobile-bottom-contact .email{
+      background-color:#0054A4;
+    }
+    .mobile-bottom-contact .call{
+      background-color: #008F26;
+    }
+  }
+  

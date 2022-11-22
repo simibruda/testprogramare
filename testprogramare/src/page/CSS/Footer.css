@@ -1,0 +1,46 @@
+.footer-container {
+  background-color: #013364;
+  color: white;
+  
+  font-family: "Montserrat";
+}
+.all-lists{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 50px;
+}
+.footer-container ul {
+  list-style: none;
+}
+.all-lists li {
+  border-bottom: dotted;
+  border-width: 1px;
+  padding: 10px 0px 10px 0px;
+  font-size: 13px;
+}
+.first-list {
+ width: 17%;
+}
+.second-list {
+ width: 17%;
+}
+.third-list {
+ width: 17%;
+}
+.fourth-list {
+  width: 17%;
+}
+.footer-bottom{
+    padding-top: 35px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-bottom li {
+   display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 13px;
+  }

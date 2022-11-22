@@ -1,0 +1,56 @@
+.dog-container{
+    background-image:url(../images/Group196.svg), url(../images/Dog-image.png) ;
+    background-position: top 600px left, top;
+    background-size: 100%, auto;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 650px;
+    z-index: 10;
+    font-family: "Montserrat",
+}
+.dog-bage{
+    align-items: center;
+padding-top: 70px;
+    position: absolute;
+    padding-left: 650px;
+}
+.writting-containerdog{
+   padding-top: 250px;
+}
+.bage-div{
+    position:relative;
+    top:0;
+    left:0;
+}
+.dog-container-mobile{
+    visibility: hidden;
+    display:none
+}
+
+@media only screen and (max-width: 1333px) {
+.dog-container-mobile{
+    display: revert;
+    background-image: url(../images/Dog-image-mobile.png);
+    background-repeat: no-repeat;
+    background-color: rgb(172, 161, 161);
+    background-blend-mode: multiply;
+    visibility: visible;
+    width: 100%;
+    height:630px;
+    font-family: "Montserrat",
+
+}
+.dog-container{
+    display: none;
+}
+.dogmobile-writting{
+    color: white;
+    padding-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}

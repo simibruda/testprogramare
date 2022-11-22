@@ -1,0 +1,45 @@
+.servicea-arias{
+    background-image: url(../Map/Map-bg@2x.jpg);
+        height: 1000px;
+        color: white;
+        font-family: "Montserrat";
+        text-align: center;
+}
+.serviceareas-container{
+    padding-top: 100px;
+    padding-left: 350px;
+    z-index: 9;
+}
+.new-jerssy{
+   float:right;
+ padding-right: 130px;
+   
+}
+.arrow-left{
+   padding-top: 250px;
+   padding-right: 40px;
+   position: absolute;
+}
+.florida{
+    float: right;
+    z-index: -9;
+    padding-right: 300px;
+
+}
+.servicearea-mobilecont{
+    display: none;
+}
+@media only screen and (max-width: 1333px) {
+    .servicea-arias{
+       display: none;
+    }
+    .servicearea-mobilecont{
+        display: revert;
+        background-image: url(../Map/Map-bg@2x.jpg);
+        height: 1160px;
+        font-family: "Montserrat";
+        padding-top: 50px;
+        color:white;
+    }
+   
+}

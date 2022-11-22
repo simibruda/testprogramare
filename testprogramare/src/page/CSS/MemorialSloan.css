@@ -1,0 +1,68 @@
+.memorial-container{
+  background:transparent linear-gradient(221deg, #0968C4 0%, #053462 100%) 0% 0% no-repeat padding-box;
+height: 500px;
+display:flex;
+align-items: center;
+justify-content: center;
+font-family: 'Montserrat';
+}
+
+.memorial-photo{
+  padding-right: 850px;
+    
+   
+}
+.memorial-writting{
+    text-align: justify;
+  width: 500px;
+ 
+   
+}
+.logo-mskcc{
+  
+
+    position: absolute;
+    padding-top:100px;
+}
+.memorial-writting button{
+    
+  border: none;
+  height: 50px;
+  border-radius: 25px 25px 25px 25px;
+  color:white;
+  background-color:transparent;
+  width: 200px;
+  font-size: 13px;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+.memorialcontainer-mobile{
+  display: none;
+}
+@media only screen and (max-width: 1333px) {
+  .memorial-container{
+    display: none;
+  }
+  .memorialcontainer-mobile{
+    display: revert;
+    background:transparent linear-gradient(221deg, #0968C4 0%, #053462 100%) 0% 0% no-repeat padding-box;
+    height: 800px;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-family: 'Montserrat';
+    color:white;
+  }
+  .memorialcontainer-mobile button{
+    border: none;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    color:white;
+    background-color:transparent;
+    width: 95%;
+    font-size: 13px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+}
