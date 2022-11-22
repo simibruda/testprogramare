@@ -24,7 +24,7 @@ function Home() {
       <TrustCertification />
       <ServiceAreas />
      <ContactUs />
-   {/*<Footer />*/}
+   <Footer />
     </div>
   );
 }

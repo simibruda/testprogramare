@@ -44,3 +44,32 @@
     padding: 0px 10px 0px 10px;
     font-size: 13px;
   }
+  @media only screen and (max-width: 1333px) {
+    .all-lists{
+      align-items: none;
+      justify-content: none;
+      flex-direction: column;
+      display: justify;
+    }
+    .first-list {
+      width: 90%;
+     }
+     .second-list {
+      width: 90%;
+     }
+     .third-list {
+      width: 90%;
+     }
+     .fourth-list {
+       width: 90%;
+     }
+     .footer-bottom ul{
+      
+      display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+     }
+  }

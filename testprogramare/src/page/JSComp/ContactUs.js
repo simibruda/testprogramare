@@ -41,7 +41,7 @@ function ContactUs() {
          
         </div>
         <input className="form-field" style={{ width: '43%'}} placeholder="Note" />
-        
+        <br/>
         <div className="mobile-input">
       <input className="mobile-field" placeholder="Name" />
       <input className="mobile-field" placeholder="Email Address" />

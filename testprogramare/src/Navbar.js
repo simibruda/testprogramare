@@ -1,12 +1,12 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "./Logo-Excel@2x.png";
-import Customer from "./Customer-icon.svg";
-import navicon from "./global-navigation-bar.svg";
+import Logo from "./NavBarImg/Logo-Excel@2x.png";
+import Customer from "./NavBarImg/Customer-icon.svg";
+import navicon from "./NavBarImg/global-navigation-bar.svg";
 import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
-import email from './email.svg'
-import call from './Phone.svg'
+import email from './NavBarImg/email.svg'
+import call from './NavBarImg/Phone.svg'
 export default function Navbar() {
   const space = {
     width: "15px",
